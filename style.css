@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+}
+.amazon{
+    height: 40px;
+    width: 90px;
+    margin-top: 3px;
+}
+.border{
+    border: 2px solod transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/**box2**/
+.add-first{
+    margin: 0px;
+    color: #cccccccc;
+    font-size: 0.85rem;
+    margin-left: 9px;
+}
+.add-second{
+    display: flex;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+/** box3**/
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.search-select{
+    background-color: #ece3e3fd;
+    width: 50px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+.search-input{
+    width: 100%;
+    box-shadow: 0px 0px 8px #ccc;
+    font-size: 17px;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(170, 170, 12);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 3px solid rgb(217, 146, 14);
+}
+
+/**box4**/
+
+.nav-first{
+    margin: 0px;
+    margin-left: 13px;
+    margin-top: 5px;
+     font-size: 0.7rem;
+}
+.nav-second{
+    margin: 0px;
+    margin-left: 13px;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+ 
+/**box5**/
+
+.nav-cart i{
+    padding: 3px;
+    font-size:35px;
+}
+.nav-cart{
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+
+/**panelstying**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+}
+.panel-all{
+    width: 5%;
+    height: 33px;
+    padding: 5px;
+    padding-top: 8.9px;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+.panel-ops{
+    width: 80%;
+}
+ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1px;
+}
+li{
+    list-style: none;
+    padding: 9px;
+}
+.menu-ancer{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.panel-deals{
+    width: 15%;
+    height: 39px;
+    padding: 7px;
+    color: white;
+}
+
+
+/**hero section**/
+
+
+.hero-section{
+      background-image: url(heroimage.jpg); 
+      background-size: 100% 350px;
+      height: 350px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      
+
+}
+.heromessage{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.a{ 
+    text-decoration: none;
+    color: rgba(120, 120, 123, 0.66);
+}
+/**shop**/
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f7f3;
+}
+.box{
+    width: 23%;
+    height: 420px;
+   
+    background-color: white;
+    margin-top: 25px;
+    padding: 18px;
+}
+/**box1**/
+.refresh{
+    width: 90%;
+    margin-left: 20px;
+}
+.a1{
+    font-size: 23px;
+}
+.boxx{
+    width: 150px;
+    height: 160px;
+    font-size: 12px;
+    float: left;
+    margin-left: 3px;
+}
+.see{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.an{
+    text-decoration: none;
+    color: rgb(96, 96, 159);
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px
+}
+.boxxo{
+    width: 150px;
+    height: 160px;
+    font-size: 12px;
+    float: left;
+    margin-left: 3px;
+}
+.boxes{
+    width: 96%;
+    height: 270px;
+    background-color: white;
+    margin-top: 25px;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.animate{
+    width: 3000px;
+    height: 200px;
+    background-color: white;
+}
+.boxes:hover{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+
+/**end**/
+.sign{
+    width:100%;
+    height: 200px;
+    background-color: white;
+    margin-top: 25px;
+}
+.in{
+    width: 99.99%;
+    height: 150px;
+    border: 2px solid #ccc;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.end{
+   
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+    padding: 2px;
+    margin: 2px;
+    margin-top: 40px;
+}
+.end-a{
+    width: 200px;
+    height: 30px;
+    background-color: goldenrod;
+    border: 2px solid gold;
+    font-size: 14px;
+    font-weight: bold;
+}
+.end-b{
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: black;
+    padding: 2px;
+    margin: 2px;
+}
+
+/** footer **/
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    width: 24%;
+    height: 400px;
+    border: 2px solid blue
+}
+
+
+
